@@ -1,0 +1,13 @@
+
+#define PAN_MOTOR_SPEED PIN_PC0 //10 // PC0 PWM pin '~'
+#define PAN_MOTOR_IN_ONE PIN_PB2 //6 PB2
+#define PAN_MOTOR_IN_TWO PIN_PB3 //7 // PB3
+
+#define TILT_MOTOR_IN_ONE PIN_PB5 // 4 // PB5
+#define TILT_MOTOR_IN_TWO PIN_PB4 //5 // PB4
+#define TILT_MOTOR_SPEED PIN_PC1 // 11 // PC1 PWM pin '~'
+
+#define MOTOR_STANDBY PIN_PA6 //2 // PA6 *HIGH IS ACTIVE*
+
+#define PAN_POSITION_PIN PIN_PA7 //3 // PA7 Analog
+#define TILT_POSITION_PIN PIN_PA4 // 2// PA4 Analog
